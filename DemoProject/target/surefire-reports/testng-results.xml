@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T23:36:19 MDT" name="Suite" finished-at="2025-07-25T23:36:47 MDT" duration-ms="28468">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyUserIsAbleToLoginWithValidCredentials()[pri:0, instance:TestScript3.LoginTest@18271936]" name="verifyUserIsAbleToLoginWithValidCredentials" class="TestScript3.LoginTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-07-25T23:36:19 MDT" name="Test" finished-at="2025-07-25T23:36:47 MDT" duration-ms="28468">
+      <class name="TestScript3.LoginTest">
+        <test-method is-config="true" signature="browserInitilization(java.lang.String)[pri:0, instance:TestScript3.LoginTest@18271936]" started-at="2025-07-25T23:36:41 MDT" name="browserInitilization" finished-at="2025-07-25T23:36:45 MDT" duration-ms="4093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitilization -->
+        <test-method signature="verifyUserIsAbleToLoginWithValidCredentials()[pri:0, instance:TestScript3.LoginTest@18271936]" started-at="2025-07-25T23:36:45 MDT" name="verifyUserIsAbleToLoginWithValidCredentials" finished-at="2025-07-25T23:36:47 MDT" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLoginWithValidCredentials -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:TestScript3.LoginTest@18271936]" started-at="2025-07-25T23:36:47 MDT" name="browserQuit" finished-at="2025-07-25T23:36:47 MDT" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLoginWithValidCredentials status=SUCCESS method=LoginTest.verifyUserIsAbleToLoginWithValidCredentials()[pri:0, instance:TestScript3.LoginTest@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- TestScript3.LoginTest -->
+      <class name="TestScript3.NewsTest">
+        <test-method is-config="true" signature="browserInitilization(java.lang.String)[pri:0, instance:TestScript3.NewsTest@1ca3b418]" started-at="2025-07-25T23:36:19 MDT" name="browserInitilization" finished-at="2025-07-25T23:36:24 MDT" duration-ms="4886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitilization -->
+        <test-method signature="verifyWhetherUserCanAddNews()[pri:0, instance:TestScript3.NewsTest@1ca3b418]" started-at="2025-07-25T23:36:24 MDT" name="verifyWhetherUserCanAddNews" finished-at="2025-07-25T23:36:31 MDT" duration-ms="6998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserCanAddNews -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:TestScript3.NewsTest@1ca3b418]" started-at="2025-07-25T23:36:31 MDT" name="browserQuit" finished-at="2025-07-25T23:36:31 MDT" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserCanAddNews status=SUCCESS method=NewsTest.verifyWhetherUserCanAddNews()[pri:0, instance:TestScript3.NewsTest@1ca3b418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- TestScript3.NewsTest -->
+      <class name="TestScript3.AdminTest">
+        <test-method is-config="true" signature="browserInitilization(java.lang.String)[pri:0, instance:TestScript3.AdminTest@909217e]" started-at="2025-07-25T23:36:31 MDT" name="browserInitilization" finished-at="2025-07-25T23:36:35 MDT" duration-ms="4247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitilization -->
+        <test-method signature="verifyUserIsAbleToLoginWithValidCredentials()[pri:0, instance:TestScript3.AdminTest@909217e]" started-at="2025-07-25T23:36:35 MDT" name="verifyUserIsAbleToLoginWithValidCredentials" finished-at="2025-07-25T23:36:41 MDT" duration-ms="5366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLoginWithValidCredentials -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:TestScript3.AdminTest@909217e]" started-at="2025-07-25T23:36:41 MDT" name="browserQuit" finished-at="2025-07-25T23:36:41 MDT" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLoginWithValidCredentials status=SUCCESS method=AdminTest.verifyUserIsAbleToLoginWithValidCredentials()[pri:0, instance:TestScript3.AdminTest@909217e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- TestScript3.AdminTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

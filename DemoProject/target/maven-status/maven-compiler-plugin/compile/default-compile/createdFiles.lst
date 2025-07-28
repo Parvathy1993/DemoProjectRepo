@@ -1,0 +1,11 @@
+utilities\FileUpload_Utility.class
+pages\LoginPage.class
+utilities\ScreenshotUtility.class
+utilities\Excel_Utility.class
+utilities\ExtendReportUtility.class
+utilities\FakerUtility.class
+pages\NewsPage.class
+utilities\Page_Utility.class
+constant\Constant.class
+pages\AdminPage.class
+utilities\WaitUtility.class
